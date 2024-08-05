@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Vegetable Website</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#facc15',
+                        secondary: '#030712',
+                        red: '#dc2626',
+                        yellow:'#f59e0b',
+                    },
+                    fontFamily: {
+                        'sans': ['Poppins', 'sans-serif'],
+                        'serif': ['ui-serif', 'Georgia'],
+                        'mediv': ['MedievalSharp'],
+                        'sans': ['ui-sans-serif', 'system-ui'],
+                        'serif': ['ui-serif', 'Georgia'],
+                        'mono': ['ui-monospace', 'SFMono-Regular'],
+                        'display': ['Oswald'],
+                        'body': ['"Open Sans"'],
+                    },
+                    container: {
+                        center: true,
+                        padding: '1rem',
+                        screens: {
+                            sm: '600px',
+                            md: '728px',
+                            lg: '984px',
+                            xl: '1240px',
+                            '2xl': '1150px',
+                        },
+                    },
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- Header-->
+    <section class="bg-primary">
+        <div class="container flex justify-between items-center py-2 xl:gap-32">
+            <div>
+                <div class="container flex p-2 border-2 hover:bg-secondary rounded-full" style="width: 60px;">
+                    <img src="logo1.jpeg" alt="">
+                </div>
+
+            </div>
+            <div class="">
+                <ul class="md:flex gap-5 py-6 lg:text-[18px] text-sm font-mediv font-semibold hidden">
+                    <li class="hover:bg-secondary hover:text-white">Home</li>
+                    <li class="hover:bg-secondary hover:text-white">
+                        <a href="onthemenu.html">On The Menu</a>
+                        </li>
+                    <li class="hover:bg-secondary hover:text-white">Sign Up & Pricing</li>
+                    <li class="hover:bg-secondary hover:text-white">About Us</li>
+                    <li class="hover:bg-secondary hover:text-white">Contact</li>
+                </ul>
+            </div>
+            <div>
+                <a href="" class="bg-primary py-3 px-20  text-[16px] text-white font-mediv font-semibold px-4 border-2 border-secondary hover:bg-secondary rounded-lg h-fit">Log-in</a>
+                <a href="javascript:void(0)" class="bg-primary py-3 px-20  text-[16px] text-white font-mediv font-semibold px-4 border-2 border-secondary hover:bg-secondary rounded-lg h-fit">Sign-Up</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Image Section -->
+    <section class="h-full">
+            <div style="background-image: url(img1.jpg);width: 100%; max-width: 100%; height: 100%; object-fit: cover;">
+                <div class=" md:py-20 py-10 md:border-4 hover:border-secondary rounded-full ">
+                    <h1 class="md:container m-6 flex justify-center  text-[35px] text-white font-dispaly font-semibold">FOOD
+                        WITH A PURPOSE !</h1>
+                    <p class="md:container flex justify-center md:w-1/2 m-6 text-white font-dispaly">It sounds like you're
+                        describing a vegetable court that offers excellent hospitality and a variety of delicious foods.
+                        That's wonderful! Providing a welcoming and enjoyable dining experience can contribute
+                        significantly to the success of a restaurant or food establishment.
+                        If you have any specific questions or if there's something specific you'd like to know or
+                        discuss about your vegetable court, feel free to let me know. Whether it's about enhancing the
+                        menu, improving customer service, or any other aspect of running a successful food service
+                        business, I'm here to help!</p>
+                    <div class="md:container flex justify-center py-4">
+                        <a href="javascript:void(0)"
+                         class="bg-primary text-[16px] text-white font-dispaly font-bold py-2 px-8 border-2 border-secondary hover:bg-secondary rounded-lg">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Hero section -->
+    <section class="conatiner mt-34">
+        <div class="flex justify-center py-4">
+            <h1 class="text-primary text-[30px] font-dispaly font-bold">How It <span class="text-secondary">Works
+                    !</span></h1>
+        </div>
+        <div class="flex items-center justify-center gap-24 ">
+            <div class="conatiner items-center justify-center gap-5   py-6 ">
+                <img src="menu.jpeg"
+                    class="w-24 mx-auto overflow-hidden rounded-full hover:scale-110 transition-all duration-300">
+                <p class="text-sm max-w-[150px] text-center mt-2">Sign In & Choose from Weekly Menu</p>
+            </div>
+            <div class="conatiner items-center justify-center gap-5 py-6 ">
+                <img src="delivery.jpg"
+                    class="w-24 mx-auto overflow-hidden rounded-full hover:scale-110 transition-all duration-300">
+                <p class="text-sm max-w-[150px] text-center mt-2">We Will Deliver Your Purchase</p>
+            </div>
+            <div class="conatiner items-center justify-center gap-5 py-6 ">
+                <img src="organic food.jpeg"
+                    class="w-24 mx-auto overflow-hidden rounded-full hover:scale-110 transition-all duration-300">
+                <p class="text-sm max-w-[150px] text-center mt-2">Enjoy Our Organic Tasty Food</p>
+
+            </div>
+        </div>
+        <div class="container flex justify-center py-2">
+            <a href="javascript:void(0)"
+                class="bg-primary text-[16px] text-white font-dispaly font-bold py-2 px-8 border-2 border-secondary hover:bg-secondary rounded-md ">Learn
+                More</a>
+        </div>
+    </section>
+    <!-- Menu section -->
+    <section class="conatiner mt-4">
+        <div class="flex items-center justify-center py-12">
+            <h1 class="text-primary text-[30px] font-dispaly font-bold">From <span class="text-secondary">Our
+                    Menu:</span></h1>
+        </div>
+        <div class="conatiner flex items-center justify-center gap-8">
+            <div>
+                <img src="acai.jpeg" class="rounded-md hover:scale-110 transition-all duration-300 border-2 border-secondary">
+                <span class="mx-12 text-[20px] font-bold font-dispaly">Acai Bowls</span>
+            </div>
+            <div>
+                <img src="Paninis.jpeg" class="rounded-md hover:scale-110 transition-all duration-300 border-2 border-secondary">
+                <span class="mx-12 text-[20px] font-bold font-dispaly">Paninis</span>
+            </div>
+            <div>
+                <img src="Smoothie.jpeg" class="rounded-md hover:scale-110 transition-all duration-300 border-2 border-secondary">
+                <span class="mx-12 text-[20px] font-bold font-dispaly">Smoothie</span>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Editing Section -->
+    <section>
+        <div class="container flex items-center justify-center py-16">
+            <div style="background-image: url(img3.jpeg);width: 1200px; height: 400px; object-fit: cover;">
+                <div class="conatiner flex items-center justify-center">
+                    <img src="pamphlet.jpg" class="flex items-center justify-center"
+                        style="height: 350px; width: 500px;" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="container flex justify-center py-2">
+            <a href="javascript:void(0)"
+                class="bg-primary text-[16px] text-white font-dispaly font-bold py-2 px-8 border-2 border-secondary hover:bg-secondary rounded-md ">Purchase
+                Now--</a>
+        </div>
+    </section>
+
+    <!-- Special section -->
+    <section class="container mt-4">
+        <div class="flex items-center justify-center py-8">
+            <h1 class="text-primary text-[30px] font-dispaly font-bold">This Week <span class="text-secondary">Special
+                    Week!</span></h1>
+        </div>
+        <div class="container flex items-center justify-center gap-6 py-12">
+            <div>
+                <img src="jerk chicken.jpeg" style="width: 300px;" class="rounded-md hover:scale-110 transition-all duration-300 border-2 border-secondary">
+                <span class="mx-12 text-[20px] font-bold font-dispaly">Berry jerk Chicken</span>
+                <div class="mt-10 ml-8">
+                <a href="javascript:void(0)"
+                class="bg-primary text-[16px] text-white font-dispaly font-bold py-2 px-8 border-2 border-secondary hover:bg-secondary rounded-md ">Purchase
+                Now--</a>
+            </div>
+        </div>
+            <div>
+                <img src="marinated.jpeg"  class="rounded-md hover:scale-110 transition-all duration-300 border-2 border-secondary">
+                <span class="mx-12 text-[20px] font-bold font-dispaly">Mango salsa</span>
+                <div class="mt-4 ml-6">
+                    <a href="javascript:void(0)"
+                    class="bg-primary text-[16px] text-white font-dispaly font-bold py-2 px-8 border-2 border-secondary hover:bg-secondary rounded-md ">Purchase
+                    Now--</a>
+                </div>
+            </div>
+            <div>
+                <img src="curry green.jpeg"  class="rounded-md hover:scale-110 transition-all duration-300 border-2 border-secondary">
+                <span class="mx-12 text-[20px] font-bold font-dispaly">Curry Eggplant</span>
+                <div class="mt-10 ml-8">
+                    <a href="javascript:void(0)"
+                    class="bg-primary text-[16px] text-white font-dispaly font-bold py-2 px-8 border-2 border-secondary hover:bg-secondary rounded-md ">Purchase
+                    Now--</a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Login bar -->
+    <section class="container py-12">
+        <div class="container flex items-center justify-center">
+            <div style="background-image: url(wood.PNG);width: 1200px;height: 400px;">
+                <div class="conatiner flex items-center justify-center">
+                <h1 class="py-4 text-[36px] text-secondary font-dispaly font-bold">Join Us <span class="text-secondary text-[30px] font-dispaly font-semibold">Today!</span></h1>
+            </div>
+
+            <div class="container flex items-center justify-center">
+                <p class="text-[200px] text-sm max-w-[340px] text-center text-white">Create and account and Eploring Our Organic Tasty Meal Today !</p>
+            </div>
+            <div class="py-4 ">
+            <form id="myForm" onsubmit="return validateForm()" class="form-container">
+            <div class="container ">
+            <div class="text-center">
+                <label>Name</label>
+                <input type="text" id="name" name="name">
+                <div>
+                <span id="nameError" class="error" style="color:black; font-size:large; font:bold; font-family:serif;"></span><br>
+            </div>
+            </div>
+            <div class="text-center">
+                <label>Email</label>
+                <input type="text" id="email" name="email">
+                <div>
+                <span id="emailError" class="error" style="color:black; font-size:large; font:bold; font-family:serif ;"></span><br>
+            </div>
+            </div>
+            <div class="text-center">
+                <button  class="bg-primary text-[16px] text-white font-dispaly font-bold py-2 px-8 border-2 border-secondary hover:bg-secondary rounded-md">Submit</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+        </form>
+    </div>
+<div class="container flex items-center justify-center py-6">
+    <a href="javascript:void(0)"
+        class="bg-primary text-[16px] text-white font-dispaly font-bold py-2 px-8 border-2 border-secondary hover:bg-secondary rounded-md">Create An Account</a>
+</div>
+</div>
+</div>
+    </section>
+
+<!-- Footer -->
+    <div class="container bg-black rounded-md">
+        <header class="flex items-center justify-center bg-primary text-black py-2 border-2 border-secondary hover:bg-black hover:text-white rounded-full font-bold text-[30px] font-mediv ">At the end of this landing page you have seen about my e-commerce company</header>
+    </div>
+    <div class="container flex items-center justify-center overflow-hidden py-4 gap-6">
+        <div class="text-[10px]  font-dispaly font-bold rounded-lg">
+            <img src="jerk chicken.jpeg" style="width: 120px;" class="hover:scale-110 transition-all duration-300 overflow-hidden" alt="Chicken">
+            <span class="ml-8">Special meal</span>
+        </div>
+        <div class="text-[10px]  font-dispaly font-bold rounded-lg">
+            <img src="jerk chicken.jpeg" style="width: 120px;" class="hover:scale-110 transition-all duration-300 overflow-hidden" alt="Chicken">
+            <span class="ml-8">Special meal</span>
+        </div>
+        <div class="text-[10px]  font-dispaly font-bold rounded-lg">
+            <img src="jerk chicken.jpeg" style="width: 120px;" class="hover:scale-110 transition-all duration-300 overflow-hidden" alt="Chicken">
+            <span class="ml-8">Special meal</span>
+        </div>
+        <div class="text-[10px]  font-dispaly font-bold rounded-lg">
+            <img src="jerk chicken.jpeg" style="width: 120px;" class="hover:scale-110 transition-all duration-300 overflow-hidden" alt="Chicken">
+            <span class="ml-8">Special meal</span>
+        </div>
+        <div class="text-[10px]  font-dispaly font-bold rounded-lg">
+            <img src="jerk chicken.jpeg" style="width: 120px;" class="hover:scale-110 transition-all duration-300 overflow-hidden" alt="Chicken">
+            <span class="ml-8">Special meal</span>
+        </div>
+        <div class="text-[10px]  font-dispaly font-bold rounded-lg">
+            <img src="jerk chicken.jpeg" style="width: 120px;" class="hover:scale-110 transition-all duration-300 overflow-hidden" alt="Chicken">
+            <span class="ml-8">Special meal</span>
+        </div>
+        <div class="text-[10px]  font-dispaly font-bold rounded-lg">
+            <img src="jerk chicken.jpeg" style="width: 120px;" class="hover:scale-110 transition-all duration-300 overflow-hidden" alt="Chicken">
+            <span class="ml-8">Special meal</span>
+        </div>
+        <div class="text-[10px]  font-dispaly font-bold rounded-lg">
+            <img src="jerk chicken.jpeg" style="width: 120px;" class="hover:scale-110 transition-all duration-300 overflow-hidden" alt="Chicken">
+            <span class="ml-8">Special meal</span>
+        </div>
+        <div class="text-[10px]  font-dispaly font-bold rounded-lg">
+            <img src="jerk chicken.jpeg" style="width: 120px;" class="hover:scale-110 transition-all duration-300 overflow-hidden" alt="Chicken">
+            <span class="ml-8">Special meal</span>
+        </div>
+</div>
+  
+</section>
+
+</body>
+</html>
